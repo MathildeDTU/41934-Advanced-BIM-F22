@@ -2,9 +2,9 @@
 This project is a part of the 41934 course at DTU, where we, group 4, have chosen LCA as use case. 
 The use case is aimed to be relevant for sustainability engineers to help build inventory and overview of building material composistions. It is meant to be used in the early design stage of new buildings. 
 
-The disciplinary expertise used to solve the use case is our general knowlegde about LCA. (?)
+The disciplinary expertise used to solve the use case is our general knowlegde about LCA.
 
-IFC Concepts we would use in our script?
+The IFC Concepts we will use in our script are HasAssociations of different IFC elements to find the different materials associated to the IFC entities (e.g the material of the beams).
 
 To be able to perform a fulfilled LCA, it is required for us to have the energy frame analysis of the building.
 Furthermore it is essential to have all elements of the building and their materials
