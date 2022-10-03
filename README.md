@@ -22,5 +22,5 @@ The input data for this use case would be the amount and the different types of 
 
 The use case, (Building) Code Validation, needs a LCA analysis to see if the building complies to BR18. 
 
-![img](filename)
+![img](LCA_1_Gr4)
 
