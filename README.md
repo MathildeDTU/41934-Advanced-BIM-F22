@@ -22,5 +22,5 @@ The input data for this use case would be the amount and the different types of 
 
 The use case, (Building) Code Validation, needs a LCA analysis to see if the building complies to BR18. 
 
-![img](LCA_1_Gr4)
+![img](C:\Users\Trine\OneDrive\DTU\Kandidat\2. semester\41934 - Videregående Bygnings Informations Modellering (BIM)\Use Case\BPMN\LCA_1_Gr4)
 
