@@ -25,7 +25,7 @@ The input data for this use case would be the amount and the different types of 
 
 The use case, (Building) Code Validation, needs a LCA analysis to see if the building complies to BR18. 
 
-###Scope definition
+### Scope definition
 The scope of the use case is to analyse aspects early stage design processes that have a big impact in the final LCA of a building. An important contributor to the energy consumption of the building is the windows. Here the type, the number of glass layers and glass area has been chosen, because they play a big role regarding how much heating and cooling energy the building needs. Furthermore the case will focus on extracting the amount (m^3) of insulation. In addition to having a large impact on the heating and cooling of the building, the production of insulation has a large environmental impact. 
 
 ### Flowchart of LCA
