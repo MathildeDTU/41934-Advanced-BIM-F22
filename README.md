@@ -21,7 +21,9 @@ Before it is possible to do an LCA analysis following use cases need to be done:
 The input data for this use case would be the amount and the different types of materials together with the energy consumption of the building (from the energy frame). Additionally, the energy consumption used on the building site (data input based on Build/Operation) is needed to make a full LCA.
 
 The use case, (Building) Code Validation, needs a LCA analysis to see if the building complies to BR18. 
+
+The BPMN file of this use case is as following:
+
 ![LCA_1_Gr4](https://user-images.githubusercontent.com/112398958/193569900-fb48e3f6-df68-43c4-ab2e-78e1c603ff56.svg)
 
-![img](LCA_1_Gr4)
 
