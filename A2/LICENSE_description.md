@@ -15,4 +15,5 @@ Following the GitHub guide to "Licensing a repository", it is stated that for a 
  
 
 If we where to choose a license for our own work and “ask the maintainers nicely to add a license”, we would follow the “Open source guide”, use an “Existing projects and communities” and choose the ISC License. This license is functionally equivalent to the MIT and BSD 2-Clause licenses. The license is preferred by OpenBSD which “strives to provide code that can be freely used, copied, modified, and distributed by anyone and for any purpose”. This license allows people to: 
+
 ![License](https://user-images.githubusercontent.com/112407123/196030570-363cf750-4932-442b-aa4a-c6400fee45a9.PNG)
