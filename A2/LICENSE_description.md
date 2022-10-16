@@ -1,12 +1,12 @@
 To license our own work, we first look at Tim’s repository “HTML-Build-IFC-Converter”. We do this because many licenses require the same license for derivative work. Tim’s repository has no license file or license specifications stated in the folders or README.md. The only thing that is explicitly stated in the README.md is:  
 
-"Can I try? 
+*"Can I try? 
 
-Sure, best way to start is to grab the repo and then run duplex.py as the main.py references files that aren't included in this repo. 
+*Sure, best way to start is to grab the repo and then run duplex.py as the main.py references files that aren't included in this repo. 
 
-Can I help? 
+*Can I help? 
 
-Sure, my (tim's) coding skills are crappy but enthusistic, more skilled contributions, are definately welcome :)". 
+*Sure, my (tim's) coding skills are crappy but enthusistic, more skilled contributions, are definately welcome :)".
 
 This is in line with the “public” repository permissions, that allows the owner to choose contributions through pull request.   
 
