@@ -36,12 +36,12 @@ The scope of the use case is to analyse aspects early stage design processes tha
 
 ## 3B: Propose a (design for a) tool / workflow
 #### 3. The process diagram/Flowchart of LCA
-The flowchart of the overall process of a LCA is shown below. The chosen scope is marked with a red circle.
+The flowchart of the overall process of a LCA is shown below. The red circle marks where in the process the scope of this use case is placed.
 
 ![LCA_2_Gr4](https://user-images.githubusercontent.com/112398958/193603479-5c783904-2264-419d-adf8-ca5258df26c9.svg)
 
 #### 4. Description of the process of the workflow.
-In the flowchart above the overall process of an LCA is illustrated. The red circle marks where in the process the scope of this use case is placed. The scope is defined a previous section above.  
+The scope is defined a previous section above. The initial step of performing a LCA is collecting relevant data. The workflow illustrated above is based on the extraction of an IFC file from a BIM Model. The extracted IFC file can then be analysed using OpenBIM Software and in relation to this a script can be used to extract the amount of steel beams in the building. If the BIM model doesn't contain 
 
 
 ## 3C: Information exchange
