@@ -36,7 +36,7 @@ The flowchart of the overall process of a LCA is shown below. The chosen scope i
 # Report 
 
 ## 3A: Analyse use case
-1. Goal: Goal of the tool / workflow in one sentence. i.e. to support the user to calculate the total total cost of the project.
+1. Goal: The goal of this use case is to extract amount of steel beams in the building to investigate the environmental impact the choice of steel as a material has in the final LCA of the building.  
 2. Model Use (Bim Uses): Please refer initially to the Mapping BIM uses, use cases and processes section in this document.
 
 ## 3B: Propose a (design for a) tool / workflow
