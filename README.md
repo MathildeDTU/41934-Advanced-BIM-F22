@@ -35,13 +35,12 @@ The scope of the use case is to analyse aspects early stage design processes tha
 2. Model Use (Bim Uses): Please refer initially to the Mapping BIM uses, use cases and processes section in this document.
 
 ## 3B: Propose a (design for a) tool / workflow
-3. Process: model the process diagram from your use case in BPMN.io please remember to save the .bpmn file and you can save a .svg file that you can insert into your report.
-4. description of the process of your tool / workflow.
-
-#### Flowchart of LCA
+#### 3. The process diagram/Flowchart of LCA
 The flowchart of the overall process of a LCA is shown below. The chosen scope is marked with a red circle.
 
 ![LCA_2_Gr4](https://user-images.githubusercontent.com/112398958/193603479-5c783904-2264-419d-adf8-ca5258df26c9.svg)
+
+4. description of the process of your tool / workflow.
 
 ## 3C: Information exchange
 5. Information Exchange: Fill out the excel template with the information for your planned tool / workflow. For this you will need access to the excel, and the Dikon document to help you specify the LOD (LOR,LOG,LOI) for each element you need for you tool / workflow. This can get confusing - don’t worry we can help 😊
