@@ -40,7 +40,7 @@ The flowchart of the overall process of a LCA is shown below. The chosen scope i
 
 ![LCA_2_Gr4](https://user-images.githubusercontent.com/112398958/193603479-5c783904-2264-419d-adf8-ca5258df26c9.svg)
 
-### 4. Description of the process of the workflow.
+#### 4. Description of the process of the workflow.
 In the flowchart above the overall process of an LCA is illustrated. The red circle marks where in the process the scope of this use case is placed. The scope is defined a previous section above.  
 
 
