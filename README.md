@@ -31,9 +31,9 @@ The scope of the use case is to analyse aspects early stage design processes tha
 # Report 
 
 ## 3A: Analyse use case
-# 1. Goal: 
+#### 1. Goal: 
 The goal of this use case is to extract amount of steel beams in the building to investigate the environmental impact the choice of steel as a material has in the final LCA of the building.  
-# 2. Model Use (Bim Uses): 
+#### 2. Model Use (Bim Uses): 
 The model is outdated, as it does not include LCA, this the most applicable is a _sustainability analysis_, where we _gather_ and _quantify_.
 
 ## 3B: Propose a (design for a) tool / workflow
