@@ -1,7 +1,7 @@
-# Use Case: LCA 
+# Use Case: Check model for information to LCA 
 ### Introduction 
 This project is a part of the 41934 course at DTU, where we, group 4, have chosen LCA as use case. 
-The use case is aimed to be relevant for sustainability engineers to help build inventory and overview of building material composistions. It is meant to be used in the early design stage of new buildings. 
+The use case is aimed to be relevant for sustainability engineers to help build inventory and overview of building material composistions. It is meant to be used in the early design stage of new buildings, to check whether the BIM model contains the required information to perform an LCA. 
 
 The disciplinary expertise used to solve the use case is our general knowledge about LCA.
 
