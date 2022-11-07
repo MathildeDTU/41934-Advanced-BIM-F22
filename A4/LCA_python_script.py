@@ -29,19 +29,12 @@ title='Please select a directory for your .IFC file')
 main_win.destroy() #close window after selection
 print(main_win.sourceFile) #print path 
 
-
 ##### Loading the IFC model
-def modelLoader(name):
+model = ifcopenshell.open(main_win.sourceFile)
 
-    model_url = "model/"+name+".ifc"
 
-    if (os.path.exists(model_url)):
-        model = ifcopenshell.open(model_url)
-    
-    else:
-        print("\nERROR: please check your model folder : " +model_url+" does not exist")  
-       
-        return model
+
+
 
 ##### BEAM
 def beamCounter(model):
@@ -53,24 +46,20 @@ def beamCounter(model):
         for relAssociatesMaterials in beam.HasAssociations:  # Checks the associated materials in the 'beams'-elements.
             if relAssociatesMaterials.RelatingMaterial.Name not in material_beam:
                 material_beam.append(
-                    relAssociatesMaterials.RelatingMaterial.Name)  # Prints out the materials used in each beam
-                beam_counting.append(relAssociatesMaterials.RelatingMaterial.Name)
-                beam_count = len(beam_counting)
-                print(beam_count)
+                relAssociatesMaterials.RelatingMaterial.Name)  # Prints out the materials used in each beam
+            beam_counting.append(relAssociatesMaterials.RelatingMaterial.Name)
+            beam_count = len(beam_counting)
+    print(beam_count)
+    label = tk.Label(text="The number of beams is: {}".format(beam_count))
+            
     
 
+
+beamCounter(model)
 
 
 
 
 # Graphical User Interface (GUI)
 window = tk.Tk()
-
-
-
-
-
-
-#mainloop()
-
 
