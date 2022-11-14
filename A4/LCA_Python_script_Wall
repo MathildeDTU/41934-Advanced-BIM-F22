@@ -1,0 +1,133 @@
+# Created by Group 4: s173996; s183623; s183627; s183631
+# (41934) Advanced BIM, F22
+# Use case: LCA
+
+
+# Importing libraries and files
+import tkinter as tk
+import ifcopenshell
+import time
+import os
+
+
+########## Engine
+
+##### File explorer
+#from tkinter import filedialog
+#main_win = tk.Tk() 
+#main_win.withdraw()
+
+#main_win.overrideredirect(True)
+#main_win.geometry('0x0+0+0')
+
+#main_win.deiconify()
+#main_win.lift()
+#main_win.focus_force()
+
+#main_win.sourceFile = filedialog.askopenfilename(parent=main_win, initialdir= "/", #open file selector 
+#title='Please select a directory for your .IFC file')
+#main_win.destroy() #close window after selection
+#print(main_win.sourceFile) #print path 
+
+##### Loading the IFC model
+#model = ifcopenshell.open(main_win.sourceFile)
+model = ifcopenshell.open("C:\\Users\\emilv\\Desktop\\Duplex_A_20110907.ifc")  # for quick (direct) file path
+
+
+
+
+##### BEAM
+def beamCounter(model):
+    beams = model.by_type("IfcBeam")  # defines the different types of elements, e.g. beams, walls, etc.
+
+    material_beam = []
+    beam_counting = []
+    for beam in beams:
+        for relAssociatesMaterials in beam.HasAssociations:  # Checks the associated materials in the 'beams'-elements.
+            if relAssociatesMaterials.RelatingMaterial.Name not in material_beam:
+                material_beam.append(
+                relAssociatesMaterials.RelatingMaterial.Name)  # Prints out the materials used in each beam
+            beam_counting.append(relAssociatesMaterials.RelatingMaterial.Name)
+            beam_count = len(beam_counting)
+    print(beam_count)
+    label = tk.Label(text="The number of beams is: {}".format(beam_count))
+
+
+
+#### WALL
+def wallMaterialAmount(model):
+    walls = model.by_type("IfcWall")
+    for wall in walls:
+        print(wall.Name)
+        
+        for definition in wall.IsDefinedBy:
+
+            if definition.is_a('IfcRelDefinesByProperties'):
+                property_set = definition.RelatingPropertyDefinition
+                #if property_set.Name == "Pset_Revit_Dimensions":
+                for property in property_set.HasProperties:
+                    if property.Name == "Area":
+                        #('Wall area =',property.NominalValue.wrappedValue)
+                        areaofwall = property.NominalValue.wrappedValue
+
+        if wall.HasAssociations:
+
+            for wallMaterial in wall.HasAssociations:
+                print(wallMaterial)
+                if wallMaterial.is_a('IfcRelAssociatesMaterial'):
+                    #print(dir(wallMaterial))
+                    materialName_dict_2 = {}
+                    for materials in wallMaterial.RelatingMaterial:
+                        try:
+                            materialName_dict = {}
+                            materialName = []
+                            for materialLayer in (materials.MaterialLayers):
+
+                                #print(materialLayer.Material.Name, materialLayer.LayerThickness)
+
+                                #materialName.append(materialLayer.Material.Name)
+                                #materialName_dict.update()
+
+                                thickness = materialLayer.LayerThickness
+                                volumeofmaterial = thickness * areaofwall
+                                #for name in materialName:
+                                name = materialLayer.Material.Name
+                                if not name in materialName_dict:
+                                    materialName_dict[materialLayer.Material.Name] = volumeofmaterial
+                                else:
+                                    materialName_dict[materialLayer.Material.Name] += volumeofmaterial
+                                    #{materialName[i], volumeofmaterial }
+                                #print("New material layer")
+                            #print(materialName_dict)
+                            materialName_dict_2.update(materialName_dict)
+
+
+                        except:
+                            pass
+                print(materialName_dict_2)
+
+                        #for layerSet in materials.:
+                            #print(mat)
+                        #if (type(materials)) is tuple:
+                        #for material in materials:
+                            #print (material) #material.Material, material.LayerThickness
+                            
+        #else: 
+        #    print("The wall(s) have no associated materials.")
+
+
+
+
+
+beamCounter(model)
+wallMaterialAmount(model)
+
+# Graphical User Interface (GUI)
+window = tk.Tk()
+# label.pack()
+
+
+
+
+#mainloop()
+
