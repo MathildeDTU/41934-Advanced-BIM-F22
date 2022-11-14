@@ -62,14 +62,6 @@ def windowCounter(model):
     window_counting = []
 
     for window in windows:
-        #windows.OverallHeight*windows.OverallWidth
-        #for IfcPositiveLengthMeasure in windows.OverallHeight:  # Checks the associated materials in the 'beams'-elements.
-            #print(window.OverallHeight)
-            #if relAssociatesMaterials.RelatingMaterial.Name not in material_window:
-                #material_window.append(
-                #relAssociatesMaterials.RelatingMaterial.Name)  # Prints out the materials used in each beam
-            #window_counting.append(relAssociatesMaterials.RelatingMaterial.Name)
-            #window_count = len(window_counting)
         window_area = window.OverallHeight*window.OverallWidth
         window_counting.append(window_area)
         window_sum = sum(window_counting)
