@@ -42,19 +42,19 @@ def beamCounter(model):
 
     material_beam = []
     beam_counting = []
+    beam_lenght = []
     for beam in beams:
         for relAssociatesMaterials in beam.HasAssociations:  # Checks the associated materials in the 'beams'-elements.
             if relAssociatesMaterials.RelatingMaterial.Name not in material_beam:
                 material_beam.append(
                 relAssociatesMaterials.RelatingMaterial.Name)  # Prints out the materials used in each beam
             beam_counting.append(relAssociatesMaterials.RelatingMaterial.Name)
-            beam_count = len(beam_counting)
+            beam_count = len(beam_counting) 
             text = beam.ObjectType  # Takes the Object type with the lenght in the name
             beam_lenght.append(int(re.findall('(\d+)',text)[0])) # Slits the letters from the numbers and takes the lenght 
-    beam_type = {i:beam_lenght.count(i) for i in beam_lenght}   # count the number of times the lenght is repeated 
-    print(beam_type) # print beam lenght and number of beams with that specific lenght
-    print(beam_count)
-    label = tk.Label(text="The number of beams is: {}".format(beam_count))
+    beam_type = {i:beam_lenght.count(i) for i in beam_lenght}   # count the number of times the lenght is repeated
+    print(relAssociatesMaterials.RelatingMaterial.Name,beam_type) 
+    label = label = tk.Label(text="The number of beams is: {}".format(beam_type))
        
 beamCounter(model)
     
