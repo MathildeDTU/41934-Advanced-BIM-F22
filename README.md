@@ -55,7 +55,7 @@ The excel template is filled out with the information for the planned workflow. 
 The IFC entities and properties used are described in the previous section "IFC Concepts used".
 
 ## 3D: Value What is the potential improvement offered by this tool?
-The described tool in this use case is an open source tool to extract IFC data for early stage design. In this way it is avoided to use heavily licensed software e.g. Revit to extract quantities for data sheets. These quatities are easily used to get an initial sustainability certification of the building design. 
+The described tool in this use case is an open source tool to extract IFC data for early stage design, and to check whether the file contains the necessary information. In this way it is avoided to use heavily licensed software e.g. Revit to extract quantities for data sheets. The extracted quantities are easily used to get an initial sustainability certification of the building design. 
 #### 7./8. The business and societal value
 The business value of the tool is clarified in the availability of it being an open source alternative. The tool would also contribute to the societal value by reducing the environmental footprint of the building. 
 
@@ -63,3 +63,6 @@ The business value of the tool is clarified in the availability of it being an o
 #### 9./10. Tool/workflow and delivery 
 The worflow and the necessary steps are described in section 4 "Description of the process of the workflow".
 
+# Future work 
+![Vision](https://user-images.githubusercontent.com/112398958/203107777-9bcea3f3-52ac-49cb-a3f0-05429901d75b.PNG)
+ 
