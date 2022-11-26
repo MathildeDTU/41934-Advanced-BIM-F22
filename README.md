@@ -64,5 +64,15 @@ The business value of the tool is clarified in the availability of it being an o
 The worflow and the necessary steps are described in section 4 "Description of the process of the workflow".
 
 # Future work 
-![Vision](https://user-images.githubusercontent.com/112398958/203107777-9bcea3f3-52ac-49cb-a3f0-05429901d75b.PNG)
- 
+As described in the description video, the vision for the future of this tool is illustrated below. 
+The main window would contain the initial check of whether each component has a referenced material. By selecting e.g. walls, it would show a 3D view of the missing information. Additionally, the user would be presented with a secondary window, showing the total amounts of each material. 
+
+![Vision1](https://user-images.githubusercontent.com/112398958/204106106-54b5508a-cba4-4247-b8ec-e25f4ed049ff.PNG)
+
+A user-friendly change would be to expand a window when selecting a component; and being able to suggest changes (like on Github), which would notify the architects upstream of what information is needed and how it can be solved. 
+
+![Vision2](https://user-images.githubusercontent.com/112398958/204106110-2726eb63-063d-48a6-9121-0ba58fee87ca.PNG)
+
+Alternative versions for checking the presence of material properties for daylighting, indoor climate, etc. could be developed as a more advanced version of the tool.  
+
+![Vision3](https://user-images.githubusercontent.com/112398958/204106116-10d325f7-8188-4255-abe9-72b926b0c2bc.PNG)
