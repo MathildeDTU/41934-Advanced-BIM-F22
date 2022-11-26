@@ -82,6 +82,7 @@ A user-friendly change would be to expand a window when selecting a component; a
 
 *Figure 3: Exansion of window when selecting a component.*
 
+
 Alternative versions for checking the presence of material properties for daylighting, indoor climate, etc. could be developed as a more advanced version of the tool (Figure 4).  
 
 ![Vision3](https://user-images.githubusercontent.com/112398958/204106116-10d325f7-8188-4255-abe9-72b926b0c2bc.PNG)
