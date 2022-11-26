@@ -64,19 +64,22 @@ The business value of the tool is clarified in the availability of it being an o
 #### 9./10. Tool/workflow and delivery 
 The worflow and the necessary steps are described in section 4 "Description of the process of the workflow".
 
+# The video describing the tool
+The 2 minute video gives a shot introduction to the purpose of the tool, together with a guidiance on how to use it and what the future visions for it is. 
+
 # Future work 
-As described in the description video, the vision for the future of this tool is illustrated below. 
-The main window would contain the initial check of whether each component has a referenced material. By selecting e.g. walls, it would show a 3D view of the missing information. Additionally, the user would be presented with a secondary window, showing the total amounts of each material. 
+As described in the description video, the vision for the future of this tool is illustrated below in Figure 2-4. 
+The main window (Figure 2) would contain the initial check of whether each component has a referenced material. By selecting e.g. walls, it would show a 3D view of the missing information. Additionally, the user would be presented with a secondary window, showing the total amounts of each material. 
 
 ![Vision1](https://user-images.githubusercontent.com/112398958/204106106-54b5508a-cba4-4247-b8ec-e25f4ed049ff.PNG)
-Figure 2: The main window. 
+*Figure 2: The main window.* 
 
-A user-friendly change would be to expand a window when selecting a component; and being able to suggest changes (like on Github), which would notify the architects upstream of what information is needed and how it can be solved. 
+A user-friendly change would be to expand a window when selecting a component; and being able to suggest changes (like on Github), which would notify the architects upstream of what information is needed and how it can be solved (Figure 3). 
 
 ![Vision2](https://user-images.githubusercontent.com/112398958/204106110-2726eb63-063d-48a6-9121-0ba58fee87ca.PNG)
-Figure 3: Exansion of window when selecting a component.
+*Figure 3: Exansion of window when selecting a component.*
 
-Alternative versions for checking the presence of material properties for daylighting, indoor climate, etc. could be developed as a more advanced version of the tool.  
+Alternative versions for checking the presence of material properties for daylighting, indoor climate, etc. could be developed as a more advanced version of the tool (Figure 4).  
 
 ![Vision3](https://user-images.githubusercontent.com/112398958/204106116-10d325f7-8188-4255-abe9-72b926b0c2bc.PNG)
-Figure 4: Alternative checks.
+*Figure 4: Alternative checks.*
