@@ -79,9 +79,11 @@ The main window (Figure 2) would contain the initial check of whether each compo
 A user-friendly change would be to expand a window when selecting a component; and being able to suggest changes (like on Github), which would notify the architects upstream of what information is needed and how it can be solved (Figure 3). 
 
 ![Vision2](https://user-images.githubusercontent.com/112398958/204106110-2726eb63-063d-48a6-9121-0ba58fee87ca.PNG)
+
 *Figure 3: Exansion of window when selecting a component.*
 
 Alternative versions for checking the presence of material properties for daylighting, indoor climate, etc. could be developed as a more advanced version of the tool (Figure 4).  
 
 ![Vision3](https://user-images.githubusercontent.com/112398958/204106116-10d325f7-8188-4255-abe9-72b926b0c2bc.PNG)
+
 *Figure 4: Alternative checks.*
