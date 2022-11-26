@@ -42,7 +42,7 @@ The model is outdated, as it does not include LCA, thus the most applicable is a
 The flowchart of the overall process of a LCA is shown below in Figure 1. The red circle marks where in the process the scope of this use case is placed.
 
 ![LCA_2_Gr4](https://user-images.githubusercontent.com/112398958/193603479-5c783904-2264-419d-adf8-ca5258df26c9.svg)
-Figure 1: Flowchart of LCA tool
+*Figure 1: Flowchart of LCA tool*
 
 #### 4. Description of the process of the workflow.
 The scope is defined a previous section above. The initial step of performing a LCA is for the engineer to collect relevant data. The workflow illustrated above is based on the extraction of an IFC file from a BIM Model. The extracted IFC file can then be analysed using OpenBIM Software and in relation to this a script can be used to extract the amount of for instance steel beams in the building. The IFC file is then checked by the script to see if it contains all the relevant data. If the BIM model doesn't contain the required information, the model is sent back to the architect, who will then update it and send it back to the engineer, who can then extract a new IFC file once again. When all the needed data are colllected, the data can be entered into an LCA program e.g. LCA Byg by an engineer to get som initial results on the environemntal impact of the bulding. From here the results can be used to finally validate if the building complies to BR18.
