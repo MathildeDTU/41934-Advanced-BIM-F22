@@ -26,7 +26,7 @@ The input data for this use case would be the amount and the different types of 
 The use case, (Building) Code Validation, needs a LCA analysis to see if the building complies to BR18. 
 
 ### Scope definition
-The scope of the use case is to analyse aspects early stage design processes that have a big impact in the final LCA of a building. it is of interst to examine the amount of steel beams in the building, to investigate the environmental impact the choice of steel as a material has in the final LCA of the building. 
+The scope of the use case is to analyse aspects early stage design processes that have a big impact in the final LCA of a building. First of all it is a tool that checks if the necessary information is within the IFC file. In this connection it is of interst to examine the amount of steel beams in the building, to  be abæe to investigate the environmental impact the choice of steel as a material has in the final LCA of the building. Furthermore the tool should function on walls and components with material layers, and in the same way find the total area of windows in the building. All the materials will all have a influence in a final LCA, and will play a big part in the picture of whether a building is below a certain treshold regarding environemntal impacts.
 
 # Report 
 
