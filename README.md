@@ -39,9 +39,10 @@ The model is outdated, as it does not include LCA, thus the most applicable is a
 
 ## 3B: Propose a (design for a) tool / workflow
 #### 3. The process diagram/Flowchart of LCA
-The flowchart of the overall process of a LCA is shown below. The red circle marks where in the process the scope of this use case is placed.
+The flowchart of the overall process of a LCA is shown below in Figure 1. The red circle marks where in the process the scope of this use case is placed.
 
 ![LCA_2_Gr4](https://user-images.githubusercontent.com/112398958/193603479-5c783904-2264-419d-adf8-ca5258df26c9.svg)
+Figure 1: Flowchart of LCA tool
 
 #### 4. Description of the process of the workflow.
 The scope is defined a previous section above. The initial step of performing a LCA is for the engineer to collect relevant data. The workflow illustrated above is based on the extraction of an IFC file from a BIM Model. The extracted IFC file can then be analysed using OpenBIM Software and in relation to this a script can be used to extract the amount of for instance steel beams in the building. The IFC file is then checked by the script to see if it contains all the relevant data. If the BIM model doesn't contain the required information, the model is sent back to the architect, who will then update it and send it back to the engineer, who can then extract a new IFC file once again. When all the needed data are colllected, the data can be entered into an LCA program e.g. LCA Byg by an engineer to get som initial results on the environemntal impact of the bulding. From here the results can be used to finally validate if the building complies to BR18.
@@ -68,11 +69,14 @@ As described in the description video, the vision for the future of this tool is
 The main window would contain the initial check of whether each component has a referenced material. By selecting e.g. walls, it would show a 3D view of the missing information. Additionally, the user would be presented with a secondary window, showing the total amounts of each material. 
 
 ![Vision1](https://user-images.githubusercontent.com/112398958/204106106-54b5508a-cba4-4247-b8ec-e25f4ed049ff.PNG)
+Figure 2: The main window. 
 
 A user-friendly change would be to expand a window when selecting a component; and being able to suggest changes (like on Github), which would notify the architects upstream of what information is needed and how it can be solved. 
 
 ![Vision2](https://user-images.githubusercontent.com/112398958/204106110-2726eb63-063d-48a6-9121-0ba58fee87ca.PNG)
+Figure 3: Exansion of window when selecting a component.
 
 Alternative versions for checking the presence of material properties for daylighting, indoor climate, etc. could be developed as a more advanced version of the tool.  
 
 ![Vision3](https://user-images.githubusercontent.com/112398958/204106116-10d325f7-8188-4255-abe9-72b926b0c2bc.PNG)
+Figure 4: Alternative checks.
