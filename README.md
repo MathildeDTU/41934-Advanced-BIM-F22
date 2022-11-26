@@ -64,7 +64,9 @@ The business value of the tool is clarified in the availability of it being an o
 #### 9./10. Tool/workflow and delivery 
 The worflow and the necessary steps are described in section 4 "Description of the process of the workflow".
 
-# The video describing the tool
+# Describtion of the tool
+The tool is meant to assist with creating an inventory of materials for Life Cycle Assessment (LCA) of buildings, based on the IFC-file. 
+It can, as mentioned before, be used in the early design stage, when the first BIM drafts are ready. The code will then return material types, -amounts, and in some cases -dimensions to be input easily in LCA software. If the IFC file doesn’t contain the required information, the script will return a warning. The missing data should then be corrected in the BIM Model, whereas the model can be converted to an IFC file and then be checked again by the code.  
 The 2 minute video gives a shot introduction to the purpose of the tool, together with a guidiance on how to use it and what the future visions for it is. 
 
 # Future work 
