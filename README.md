@@ -70,6 +70,8 @@ It can, as mentioned before, be used in the early design stage, when the first B
 The 2 minute video gives a shot introduction to the purpose of the tool, together with a guidiance on how to use it and what the future visions for it is. 
 
 # Future work 
+This code only focuses on walls, beams and windows, however, a finnished tool should obviously run through all components of the IFC model. All layered components (slabs, roof etc) should be able to be run through the same loop as walls, while colums and beams should be able to be in the same loop.
+
 As described in the description video, the vision for the future of this tool is illustrated below in Figure 2-4. 
 The main window (Figure 2) would contain the initial check of whether each component has a referenced material. By selecting e.g. walls, it would show a 3D view of the missing information. Additionally, the user would be presented with a secondary window, showing the total amounts of each material. 
 
