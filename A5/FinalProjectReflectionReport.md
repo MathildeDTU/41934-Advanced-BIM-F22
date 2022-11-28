@@ -1,8 +1,7 @@
 # Final Project Reflection Report 
 Maybe write general reflection to LCA topic here
 
-## Process of developing the tool
-##  The process of creating the tool
+##  The process of creating/developig the tool
 o	In relation to IFC-files, we have learned a lot about the structure of IFC. 
 o	This structure needs to be bulletproof for the case-specific investigation, so the tool that is built can extract the information automatically.
 
