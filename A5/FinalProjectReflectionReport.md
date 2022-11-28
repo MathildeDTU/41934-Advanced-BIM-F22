@@ -1,11 +1,11 @@
 # Final Project Reflection Report 
 Maybe write general reflection to LCA topic here
 
+## Process of developing the tool
 ##  The process of creating the tool
 o	In relation to IFC-files, we have learned a lot about the structure of IFC. 
 o	This structure needs to be bulletproof for the case-specific investigation, so the tool that is built can extract the information automatically.
 
-## Process of developing the tool
 ### Did the process of the course enable you to answer or define questions that you might need later for thesis?
 o	In some way yes, it introduces the OpenBIM tool. However, the course needs a clearer structure, to give the students a better overview of what is expected from them from the start. 
 
