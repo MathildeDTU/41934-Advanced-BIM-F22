@@ -1,5 +1,5 @@
 # Final Project Reflection Report 
-A general problem for all three LCA groups was that the tools are developed for the specific IFC file. Therefore, a future step for all groups were to generalize the tools to function  
+A general problem for all three LCA groups was that the tools are developed for the specific IFC file. Therefore, a future step for all groups were to generalize the tools to function more generally. Another interesting idea, that we talked about between the groups, was to have workshops with groups within the same topic, to discuss difficulties. In that connection that we reached the conclusion that we have had many of the same problems. The workshops could help overcome these and create a more effective workflow.     
 
 ##  The process of creating/developig the tool
 o	In relation to IFC-files, we have learned a lot about the structure of IFC. 
