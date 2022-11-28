@@ -1,5 +1,5 @@
 # Final Project Reflection Report 
-Maybe write general reflection to LCA topic here
+A general problem for all three LCA groups was that the tools are developed for the specific IFC file. Therefore, a future step for all groups were to generalize the tools to function  
 
 ##  The process of creating/developig the tool
 o	In relation to IFC-files, we have learned a lot about the structure of IFC. 
