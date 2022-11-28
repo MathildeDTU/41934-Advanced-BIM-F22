@@ -12,17 +12,17 @@ The number of choices fit perfectly for the case studies. However, more focus on
 
 ### Was the number of tools for the course ok - should we have more or less? - if so which ones would you leave out?
 The HTML-part could easily be switched out with some more IFC-specific coding, so we could learn the step from blenderpy to e.g. Python easier.
-o	LCA-specific feedback; introduction to .JSON files, which is useful when exporting to LCAByg. This could be taught or made into videos of ‘how to’ for the groups that need it.
+LCA-specific feedback; introduction to .JSON files, which is useful when exporting to LCAByg. This could be taught or made into videos of ‘how to’ for the groups that need it.
 
 ## Output of the tool
 ### Did the tool address the use case you identified?
-o	Yes, the use case was to perform a check of an IFC-model, which was performed. Furthermore, a simple concept of the material amounts (kg, m3, m2) to later be used in LCA calculations was initiated.
+oYes, the use case was to perform a check of an IFC-model, which was performed. Furthermore, a simple concept of the material amounts (kg, m3, m2) to later be used in LCA calculations was initiated.
 
 ### Was the use case well modelled and clearly scoped
-o	That depended on our own composition since the guidelines for the use cases weren’t strict. Judging from our feedback and our own perception, we think the case was well modelled and clearly scoped.  As mentioned before, we would have liked to have received a clearer introduction to what was expected from us from the start. 
+That depended on our own composition since the guidelines for the use cases weren’t strict. Judging from our feedback and our own perception, we think the case was well modelled and clearly scoped.  As mentioned before, we would have liked to have received a clearer introduction to what was expected from us from the start. 
 
 ## Future
 ### Are you likely to use OpenBIM tools in your thesis
-o	Yes, probably. 
+Yes, probably. 
 ### Are you likely to use OpenBIM tools in your professsional life in the next 10 years?
-o	Probably 
+Probably 
